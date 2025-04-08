@@ -1,18 +1,18 @@
 import { Acme } from '@events/custom';
 
 const createdEventMessage = `{
-    "source": "acme",
+    "source": "not-acme",
     "detailType": "client-created",
     "detail": {
         "metadata": {
-            "clientId": "12345",
-            "employeeId": "67890",
+            "clientId": "edbc4247-223d-4929-b325-1a39b8c01f04",
+            "employeeId": "c717bead-86d8-4d1a-bd3c-20fcce19527d",
             "timestamp": "2025-04-04T18:03:24.464Z"
         },
         "payload": {
-            "clientId": "12345",
+            "clientId": "edbc4247-223d-4929-b325-1a39b8c01f04",
             "employeeId": "67890",
-            "createdAt": "2025-04-04T18:03:24.464Z"
+            "createdAt": "2025-04-04"
         }
     }
 }`
